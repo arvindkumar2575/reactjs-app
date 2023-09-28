@@ -1,0 +1,20 @@
+
+.navbar{
+    
+}
+
+.navbar_component .navbar-head{
+    display: flex;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid #f00;
+    position: fixed;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+}
+.navbar_component .navbar-head h2{
+    font-weight: bold;
+    margin: 0;
+}

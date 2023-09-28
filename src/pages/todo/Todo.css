@@ -1,0 +1,19 @@
+
+.todo h4{
+    padding-bottom: 5px;
+    margin-bottom: 0;
+    border-bottom: solid;
+}
+.todo .input-div, .todo .list-div{
+    padding-top: 10px;
+}
+.todo .bl-s{
+    border-left: solid;
+}
+.todo .list-div p.task-list-heading{
+    margin-bottom: 0;
+}
+.todo .task-add{
+    margin-top: 10px;
+    padding: 0.25rem 1rem;
+}
