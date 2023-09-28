@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import { Home } from './pages/home/Home';
 import { Navbar } from './components/navbar/Navbar';
 import { AboutUs } from './pages/about-us/AboutUs';
@@ -9,7 +9,7 @@ import { Todo } from './pages/todo/Todo';
 
 function App() {
 	return (
-		<BrowserRouter>
+		<>
 			<Navbar />
 			<Routes>
 				<Route path='/' Component={Home} />
@@ -17,7 +17,7 @@ function App() {
 				<Route path='/todo' Component={Todo} />
 				<Route path='*' Component={NotFound} />
 			</Routes>
-		</BrowserRouter>
+		</>
 	);
 }
 
