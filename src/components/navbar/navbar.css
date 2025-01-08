@@ -13,6 +13,7 @@
     width: 100%;
     background-color: #000;
     color: #fff;
+    gap: 10px;
 }
 .navbar_component .navbar-head h2{
     font-weight: bold;

@@ -5,9 +5,9 @@ export const TodoInput = ({todo,setTodo,addTodo}) => {
         <>
             <div className='col-md-7 input-div'>
                 <div className='todo-input'>
-                    <label htmlFor="todoinput" className="form-label">Add Todo Task</label>
+                    <label htmlFor="todoinput" className="form-label">Add Task</label>
                     <input type='text' onChange={e => setTodo(e.target.value)} className="form-control" id="todoinput" placeholder='Add Todo here' value={todo} />
-                    <button id='task-add' onClick={addTodo} type="button" className="btn btn-primary task-action-btn task-add">Add</button>
+                    <button id='task-add' onClick={addTodo} type="button" className="bg-blue-500 btn btn-primary task-action-btn task-add">Add</button>
                 </div>
             </div>
         </>

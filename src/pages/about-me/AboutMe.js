@@ -1,10 +1,12 @@
 import React from 'react'
 import { SmallHeader } from '../../components/small-header/SmallHeader'
 
-export const AboutUs = () => {
+export const AboutMe = (prop) => {
 	return (
 		<div className='about-us pt-50'>
-			<SmallHeader/>
+			<div className='container'>
+				<SmallHeader prop={prop}/>
+			</div>
 		</div>
 	)
 }

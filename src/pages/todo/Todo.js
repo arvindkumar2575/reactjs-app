@@ -3,7 +3,7 @@ import './Todo.css'
 import { TodoInput } from './TodoInput';
 import { TodoList } from './TodoList';
 
-export const Todo = () => {
+export const Todo = (prop) => {
 
 	const [todos, setTodos] = useState(() => {
 		const savedTodos = localStorage.getItem("todos");
@@ -30,7 +30,7 @@ export const Todo = () => {
 	return (
 		<div className='todo pt-50'>
 			<div className='container'>
-				<h4>Todo App</h4>
+				<h4 className='h4'>{prop.heading}</h4>
 				<div className='row'>
 					<TodoInput todo={todo} setTodo={setTodo} addTodo={addTodo} />
 					<TodoList todos={todos} />
